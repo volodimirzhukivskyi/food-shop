@@ -1,0 +1,68 @@
+.container {
+    z-index: 0;
+    background: white;
+    transition: all 0.2s;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    width: auto;
+    padding: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.container:hover{
+    transform:scale(1.1);
+    z-index: 1;
+}
+
+.price {
+    margin: 5px 0;
+    display: block;
+    color:var(--red);
+    font-size: 18px;
+
+}
+
+.img {
+    max-width: 260px;
+    height: 190px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--primary);
+
+}
+
+.button {
+    position: absolute;
+    top:0;
+    right: 0;
+    padding: 10px 15px;
+    background:red;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.5s ease;
+}
+
+.button:hover {
+    background: var(--red);
+
+}
+.contentWrapper{
+    display: flex;
+    justify-content: space-around;
+}
+.infoWrapper{
+   padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+

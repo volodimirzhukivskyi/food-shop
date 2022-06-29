@@ -1,0 +1,47 @@
+.content{
+    display: flex;
+}
+.container{
+   display: flex;
+    align-items: center;
+    padding: 20px;
+    position: relative;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.totalPrice{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 30px;
+    margin: 0;
+    color: var(--primary);
+}
+.span{
+color: gold;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10px;
+}
+.title{
+    font-size: 64px;
+    text-align: center;
+    padding-top: 15%
+}
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column;
+        padding:10px 0;
+    }
+    .products{
+        margin-bottom:  20px;
+    }
+    .totalPrice{
+        left: 35%;
+    }
+}

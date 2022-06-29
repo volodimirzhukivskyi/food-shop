@@ -1,0 +1,25 @@
+.counterWrapper{
+    border-radius: 5px;
+    background: rgb(239, 239, 239);
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    height: 35px;
+    width: 85px;
+    margin: 0 20px 0 5px;
+}
+.counterWrapper p{
+    font-size: 16px;
+    font-weight: 900;
+
+}
+.counterWrapper button{
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    padding: 6px 12px;
+    border: none;
+    color: dimgray;
+
+
+}

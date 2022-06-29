@@ -1,0 +1,64 @@
+[{
+  "name": "MC Donny",
+  "id": 1,
+  "products": [{
+    "name": "Big Burger",
+    "img": "img/MC Donny/burger.jpg",
+    "price": 25,
+    "id": 10
+  },{
+    "name": "Big Hamburger",
+    "img": "img/MC Donny/hamburger.jpg",
+    "price": 19,
+    "id": 11
+  },{
+    "name": "Chicken McNuggets",
+    "img": "img/MC Donny/chicken-nuggets.jpg",
+    "price": 45,
+    "id": 12
+  }]
+},{
+  "name": "KFC",
+  "id": 2,
+  "products": [{
+    "name": "BUCKET DUET ORIGINAL",
+    "img": "img/KFC/burger.jpg",
+    "price": 245,
+    "id": 21
+
+  },{
+    "name": "BOXMASTER SPICY NEW",
+    "img": "img/KFC/cheeseburger.jpg",
+    "price": 120,
+    "id": 22
+
+  },{
+    "name": "BUCKET FRIES",
+    "img": "img/KFC/hamburger.jpg",
+    "price": 75,
+    "id": 23
+
+  }]
+},{
+  "name": "Mister Cat",
+  "id": 3,
+  "products": [{
+    "name": "Pizza 4 Cheese",
+    "img": "img/Mister Cat/durian-pizza.jpg",
+    "price": 200,
+    "id": 31
+
+  },{
+    "name": "Pizza Carbonara",
+    "img": "img/Mister Cat/pizza-Carbonara.jpg",
+    "price": 180,
+    "id": 32
+
+  },{
+    "name": "Pizza New York",
+    "img": "img/Mister Cat/plate-New-York.jpg",
+    "price": 23,
+    "id": 33
+
+  }]
+}]
